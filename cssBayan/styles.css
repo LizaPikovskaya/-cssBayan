@@ -129,7 +129,7 @@ body {
             font-size: 1.5rem;
         }  }
 
-        
+
   .accordion-title:hover {
    color: rgb(29, 92, 195) ;
   }
@@ -175,7 +175,7 @@ body {
     }
   
   }
-  @media screen and (min-width: 600px){
+  @media screen and (min-width: 568px){
     .accordion-input:checked ~ .img,
   .accordion-item ~ .img,
   .accordion-title:hover .img,
@@ -186,7 +186,7 @@ body {
   }
   }
   
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1080px){
     .accordion-input:checked ~ .img,
   .accordion-item ~ .img,
   .accordion-title:hover .img,
