@@ -6,12 +6,7 @@ body {
    
   }
   
-  @media screen and (min-width: 1200px){
-    body {
-      font-size: 1.5rem;
-  
-    }
-  }
+
   
   .link {
     text-decoration: none;
@@ -118,11 +113,9 @@ body {
     position: relative;
     display: block;
     padding: 25px 15px;
-        /* border: 1px solid grey; */
   color: black;
   font-weight: 700;
     cursor: pointer;
-  /* background-color: rgb(178, 119, 119); */
     transition: color 300ms linear;
   }
   @media screen and (min-width: 820px){
@@ -175,8 +168,7 @@ body {
     .accordion-item ~ .img,
     .accordion-title:hover .img,
     .accordion-input:checked ~ label .img    {
-      margin-top: 30px;
-      margin-bottom: 20px;
+ 
       height: 70vw;
     }
   
@@ -186,8 +178,7 @@ body {
   .accordion-item ~ .img,
   .accordion-title:hover .img,
   .accordion-input:checked ~ label .img    {
-    margin-top: 30px;
-    margin-bottom: 20px;
+ 
     height: 50vw;
   }
   }
@@ -197,8 +188,7 @@ body {
   .accordion-item ~ .img,
   .accordion-title:hover .img,
   .accordion-input:checked ~ label .img    {
-    margin-top: 30px;
-    margin-bottom: 20px;
+
     height: 40vw;
   }
   }
