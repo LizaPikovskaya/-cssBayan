@@ -105,7 +105,6 @@ body {
     max-width: 100%;
   position: relative;
   border-top: 1px solid grey;
-    /* border: 1px solid black; */
     margin: 0 auto;
   }
   .accordion-title {
@@ -129,6 +128,8 @@ body {
         .accordion-title {
             font-size: 1.5rem;
         }  }
+
+        
   .accordion-title:hover {
    color: rgb(29, 92, 195) ;
   }
@@ -168,7 +169,8 @@ body {
     .accordion-item ~ .img,
     .accordion-title:hover .img,
     .accordion-input:checked ~ label .img    {
- 
+      margin-top: 1.9rem;
+      margin-bottom: 1.25rem;
       height: 70vw;
     }
   
@@ -178,7 +180,8 @@ body {
   .accordion-item ~ .img,
   .accordion-title:hover .img,
   .accordion-input:checked ~ label .img    {
- 
+    margin-top: 1.9rem;
+    margin-bottom: 1.25rem;
     height: 50vw;
   }
   }
@@ -188,7 +191,8 @@ body {
   .accordion-item ~ .img,
   .accordion-title:hover .img,
   .accordion-input:checked ~ label .img    {
-
+    margin-top: 1.9rem;
+      margin-bottom: 1.25rem;
     height: 40vw;
   }
   }
