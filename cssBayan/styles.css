@@ -198,7 +198,9 @@ body {
   }
   
 
-  .accordion-input:checked ~ .cross-icon {
+  .accordion-input:checked ~ label .cross-icon {
+    opacity: 1;
+    visibility: visible;
   transform: translateY(-50%);
   }
   .accordion-input:checked + .accordion-title {
