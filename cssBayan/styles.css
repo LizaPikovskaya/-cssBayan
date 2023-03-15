@@ -104,14 +104,14 @@ body {
   .accordion-item {
     max-width: 100%;
   position: relative;
-  border-top: 1px solid grey;
+  border-top: 0.06rem solid grey;
     margin: 0 auto;
   }
   .accordion-title {
     font-size: 1rem;
     position: relative;
     display: block;
-    padding: 25px 15px;
+    padding: 1.5rem 1rem;
   color: black;
   font-weight: 700;
     cursor: pointer;
